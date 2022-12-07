@@ -1,0 +1,19 @@
+package lista1;
+
+import modelo.Televisao;
+
+/**
+ *
+ * @author jay
+ */
+public class Lista1 {
+
+    public static void main(String[] args) {
+        
+        Televisao t1 = new Televisao(12, 220);
+        
+        t1.ligar();
+        System.out.print("A Televisão está");
+        System.out.println(t1.isLigado() ? "ligado" : "desligado");
+    }
+}
